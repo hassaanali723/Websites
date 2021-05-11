@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" />
+
  
 
 </head>
@@ -28,11 +29,11 @@
             <span class="strip"></span>
           </button>
           <ul id="nav-menu-container">
-            <li><a href="#">About</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="#">Projects</a></li>
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -88,34 +89,104 @@
             </p>
             <button>Read More</button>
           </section>
-      
-      <section class="contact-us">
-        <h1>Contact Us</h1>
-        <div class="flex">
-          <div id="map" class="map">
 
-            <!-- <img src="https://onclickwebdesign.com/wp-content/uploads/2019/02/map.jpg" alt="Map" /> -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462565.1977314254!2d54.947533837139055!3d25.07508527091831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1620612642619!5m2!1sen!2s" 
-            width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-          <div class="contact-form">
-            <address>
-              ABC Address <br/>
-              info@iCarServices.com<br/>
-              Tel: 123-456-7890
-            </address>
-            
-            <form>
-              <input type="text" name="name" id="name" placeholder="Name" />
-              <input type="email" name="email" id="email" placeholder="Email" />
-              <input type="text" name="subject" id="subject" placeholder="Subject" />
-              <textarea id="message">Type your message here...</textarea>
-              <button>Submit</button>
-            </form>
-          </div>
-        </div>
-      </section>
+          <section class="testimonials">
+            <div class="container">
+              <div class="title">
+                 <h1>My Clients</h1>
+              </div>
+              <div class="slider">
+                <div class="slide active">
+                  <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                         Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                         <div class="client-info">
+                           <h3>Hassaan Ali</h3>
+                           <span>Founder of Ustaad</span>
+                         </div>
+                </div>
+                <div class="slide">
+                  <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                         Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                         <div class="client-info">
+                           <h3>Ustaad</h3>
+                           <span>Founder of Nustac</span>
+                         </div>
+                </div>
+                <div class="slide">
+                  <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                         Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                         <div class="client-info">
+                           <h3>Usama</h3>
+                           <span>Founder of Nothing</span>
+                         </div>
+                </div>
+              </div>
+              <div class="slider-indicator">
+                <img src="assets/imgs/testimonials/client-01.png" class="active" alt="img" data-id="0" />
+                <img src="assets/imgs/testimonials/client-02.png" alt="img" data-id="1" />
+                <img src="assets/imgs/testimonials/client-03.png" alt="img" data-id="2" />
+              </div>
+            </div>
+          </section>
+
+
+
+
+          <section>
+
+            <div class="before-footer">
+              <div class="flex">
+              <div class="col1">
+                <h3>Contact Us</h3>
+                <ul>
+                  <li><p>iCarServices
+                    ABC Address Dubai <br>
+                    111 222 333  <br>
+                    email@domainname.com</p></li>
+                </ul>
+
+              </div>
+
+              <div class="col1">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+
+              </div>
+
+              <div class="col1">
+                <h3>Recent Posts</h3>
+                <ul>
+                  <li><a>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</a></li><br>
+                  <li><a>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</a></li>
+                  
+                </ul>
+
+              </div>
+
+
+              <div class="col1">
+                <h3>Latest Posts</h3>
+                <ul>
+                  <li><a>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</a></li><br>
+                  <li><a>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</a></li>
+                  
+                </ul>
+
+              </div>
+             </div>
+            </div>
+
+
+          </section>
+      
     </main>
+
+    
   
     <footer>
       <div class="flex">
@@ -135,15 +206,10 @@
       </div>
     </footer>
   </div>
-
-
+  
+ 
+<script src="./js/App.js"></script>
 </body>
- <script>
-   document.getElementById('nav-toggle').addEventListener('click', function () {
-  let navMenu = document.getElementById('nav-menu-container');
-  navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
-});
- </script>
 
 
 </html>

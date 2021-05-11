@@ -1,0 +1,66 @@
+
+.services {
+    color: #0C3C60;
+    text-align: center;
+    padding: 20px 10px 60px;
+}
+
+.services h1 {
+    margin-bottom: 10px;
+}
+
+.services > p {
+    max-width: 800px;
+    font-size: 0.85em;
+    margin: 0 auto 10px;
+    line-height: 1.5em;
+}
+
+.services button {
+    background-color: #0C3C60;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    padding: 8px 30px;
+}
+
+
+
+.service-container .flex {
+    justify-content: space-between;
+}
+
+.info{
+    padding: 10px;
+    margin: 30px;
+}
+
+
+.info h2{
+   
+    line-height: 80px;
+}
+
+.info p{
+   
+    font-size: 0.85em;
+
+}
+
+.info img {
+    max-width: 15%;
+  
+    margin-top: 16px;
+   
+}
+
+.boxes-container{
+    margin-top: 50px;
+}
+
+
+
+@media (max-width: 767px) {
+
+   
+}
