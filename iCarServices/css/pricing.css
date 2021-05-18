@@ -1,0 +1,42 @@
+.boxes-container{
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.boxes-container .box-wrap{
+    width: 33.3%;
+}
+ 
+.boxes-container .box{
+    padding: 40px 0px;
+}
+
+.boxes-container .flex{
+    margin-top: 40px;
+}
+
+.boxes-container p{
+    text-align: center;
+}
+
+
+.boxes-container ul{
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.boxes-container ul li{
+    padding: 10px;
+    border: 1px solid;
+}
+
+.box button{
+    margin-top: 10px;
+}
+
+@media (max-width:767px){
+    .box-wrap{
+        width: 100%!important;
+    }
+}
